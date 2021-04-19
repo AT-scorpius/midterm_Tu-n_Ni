@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class main_news extends Component {
+class Main_news extends Component {
     render() {
         return (
             <div>
                 <div className="news">
                     <div className="top_news">
-                        <img src={this.props.image} alt="Lỗi Hiển Thị" />
-                        <h2 className="title">{this.props.title}</h2>
+                        <img src={this.props.img} alt="" />
+                        <h3 className="title">{this.props.title}</h3>
                     </div>
                     <div className="bottom_news">
                         <div className="news_time">{this.props.time}</div>
@@ -20,4 +20,4 @@ class main_news extends Component {
     }
 }
 
-export default main_news;
+export default Main_news;

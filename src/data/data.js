@@ -39,7 +39,7 @@ export function getdata(){
         title:"Rái Cá mắc Covid-19, nghi bị nhiễm từ nhân viên thủy cung Mỹ",
         type:"THẾ GIỚI",
         id_type:1,
-        image:"raica.jpg",
+        image:"images/raica.jpg",
         time: "3 hours",
         sl_comment: 0,
         

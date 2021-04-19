@@ -1,18 +1,16 @@
-
-import React from 'react';
-import { Component } from 'react';
+import React from "react";
 // import header from '../header/header';
 // import footer from '../footer/footer';
-import {main_contain} from './left/main_contain/main_contain.js'; 
+import Main_contain from "./left/main_contain/Main_contain";
 
-class App extends Component {
-    render() {
-    return(
-        <div>
-            <main_contain />
-        </div>
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Main_contain />
+      </div>
     );
-    }
+  }
 }
 
 export default App;

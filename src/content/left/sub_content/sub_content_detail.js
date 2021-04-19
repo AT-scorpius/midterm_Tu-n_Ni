@@ -6,7 +6,7 @@ class sub_content_detail extends Component {
        
         return (
             <div>
-                <img src = {this.props.image}  width = { 200 } height = { 200 }/>
+                {/* <img src = {this.props.image}  width = { 200 } height = { 200 }/> */}
                 <p>{this.props.title}</p>
             </div>
         );
